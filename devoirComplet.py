@@ -60,7 +60,7 @@ valeur_t = np.linspace(0, 3)
 m = 1
 g = 9.81
 k = 0.0228
-vx0 = 1
+vx0 = 15
 
 def xair(t):
     return -m * np.log(m) / k + m * np.log(k * vx0 * t + m) / k
